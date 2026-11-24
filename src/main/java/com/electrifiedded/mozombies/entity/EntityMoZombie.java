@@ -29,10 +29,14 @@ public abstract class EntityMoZombie extends EntityMob {
         this.aiSpeed = aiSpeed;
         setSize(0.6F, 1.8F);
         ((net.minecraft.pathfinding.PathNavigateGround) getNavigator()).setBreakDoors(true);
+        setupAI();
     }
 
+    /** vanilla calls this from the EntityLiving constructor, before aiSpeed is assigned (was 0 => mobs froze) */
     @Override
-    protected void initEntityAI() {
+    protected void initEntityAI() {}
+
+    private void setupAI() {
         double s = aiSpeed;
         tasks.addTask(0, new EntityAISwimming(this));
         tasks.addTask(2, new EntityAIAttackMelee(this, s, false));

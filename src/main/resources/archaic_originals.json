@@ -1,0 +1,18 @@
+{
+  "_comment": "Where ArchaicLib downloads the original files of this port from. Edit freely; set locked=true to keep your edits when the mod updates. Files go to archaic_originals/ and are checked by sha256.",
+  "port": "mozombies",
+  "version": 4,
+  "locked": false,
+  "files": [
+    {
+      "file": "Mo' Zombies 2.1.0.jar",
+      "name": "mo_zombies_2.1.0.jar - Mo Zombies 2.1.0 for 1.7.10 (Coocoo617)",
+      "sha256": "48f9dc286f67b95fcff3c85b63b59ab8f5de53aef4734666e4c4d89859046cfb",
+      "size": 86338,
+      "page": "https://web.archive.org/web/2016/https://minecraft.curseforge.com/projects/mo-zombies/files/2211390",
+      "mirrors": [
+        "https://mediafilez.forgecdn.net/files/2211/390/Mo'%20Zombies%202.1.0.jar"
+      ]
+    }
+  ]
+}
